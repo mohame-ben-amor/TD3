@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <script type="text/javascript" src="script.js">
+    </script> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+
+   <div class="title">Des questions radio et checkbox</div>
+   <div>
+       <div>Quelle est votre glace préférée ?</div>
+       <ul>
+        <li><input type="radio" id="glace"  onclick="glace()" value="Chocolat"><span>Chocoloat</span></li>
+        <li><input type="radio" id="glace"  onclick="glace()" value="Fraise"><span>Fraise</span></li>
+        <li><input type="radio" id="glace" onclick="glace()"  value="Pistache"><span>Pistache</span></li>
+        <li><input type="radio" id="glace"  onclick="glace()" value="Vanille"><span>Vanille</span></li>
+       </ul>
+   </div>
+    <div>
+       <div>Quelles sont vos 2 ou 3 films préférés ?</div>
+       <ul>
+           <li><input type="checkbox" id="film" onclick="film()" value="Mystic River"><span>Mystic River</span></li>
+           <li><input type="checkbox" id="film" onclick="film()" value="Rocky"><span>Rocky</span></li>
+           <li><input type="checkbox" id="film" onclick="film()" value="E.T. l'extraterrestre"><span>E.T. l'extraterrestre</span></li>
+           <li><input type="checkbox" id="film" onclick="film()" value="Thelma et Louise"><span>Thelma et Louise</span></li>
+       </ul>
+       
+   </div>
+    
+    <div>
+       <div>Quelle est votre ville préférée ?</div>
+       <ul>
+           <li><input type="radio" onclick="ville()" id="ville"><span>Lille</span></li>
+           <li><input type="radio" onclick="ville()" id="ville" ><span>Paris</span></li>
+           <li><input type="radio" onclick="ville()" id="ville" value="Nantes"><span>Nantes</span></li>
+           <li><input type="radio" id="ville" value="Marseille"><span>Marseille</span></li>
+       </ul>
+       
+   </div>
+
+   <button onclick="verif()">Soumettre la requete</button>
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
